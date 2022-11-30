@@ -185,3 +185,7 @@ h4{
     margin-left: 300px;
    
 }
+.nav li:hover{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
