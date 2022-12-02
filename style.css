@@ -40,19 +40,21 @@ li a{
 
 .nav{
     border-radius: 20px;
-    height: 83px;
     font-weight: bold;
     background-color: rgba(0, 0, 2, 0.136);
     width: 530px;
-    height: 90px;
+    height: 70px;
     margin: 50px auto;
     list-style: none;
     padding: 20px auto 30px;
-    margin-bottom: 30px;
 }
 li{
     margin-top: 20px;
     display: inline-block;
+}
+.nav .atual{
+    background-color: rgb(219, 178, 178);
+    border-radius: 5px;
 }
 
 .Resumo{
@@ -78,9 +80,12 @@ li{
 }
 
 #P_Exp{
-    display: inline-block; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     background-color: aqua;
-    max-width: 650px;
+    border-radius: 20px;
+    margin: 0% 20% 0% 20%;
 }
 
 .Perfil{
@@ -102,30 +107,18 @@ li{
     text-align: center;
 }
 
-.csharp{
-    text-align: center;
+.cursos{
     background-color: cadetblue;
-    margin:auto 170px auto 170px;
      border-radius: 30px;
-     padding: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     flex: 1;
+     margin: 7%;
 }
 
-.Cursos:link{
-    color:#5d00ff;
-    text-decoration: underline;
-}
-.Cursos:visited{
-    color:#ff0000;
-    text-decoration:line-through;
-  }
-.Cursos:hover {
-    color:#000000;
-    text-decoration:none;
-  }
-.Cursos:active {
-    color:#000000;
-    text-decoration:none;
-  }
+
 .Grade #C{
     padding: 30px;
     margin: 40px;
@@ -136,9 +129,8 @@ li{
     
     background-color: blue;
 }
-#tituloc{
-    padding-top: 10px;
-    margin-top: 10px;
+.tituloCurso{
+    font-size: large;
     font-weight: bold;
 }
 
@@ -150,20 +142,18 @@ footer{
 }
 
 #funcaoatual{
-    display: inline-block; 
+    display:flex; 
+    justify-content: center;
     background-color: aqua;
-    max-width: 600px;
-    padding: 1px;
+    border-radius: 20px;
+
 }
 #FuncaoMultimidia li{
-    display: block;
-    margin-top: 15px;
-    padding-right: 30px;
+    display: flex;
+    justify-content: center;
     font-weight: lighter;
 }
-h4{
-    margin-bottom: 2px;
-}
+
 #email{
     font-weight: normal;
 }
@@ -173,19 +163,26 @@ h4{
 }
 
 .certificado1{
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 
 #Formacao{
-    background-color: #7f34ff5a;
-    max-width: 600px;
-    display: inline-block;
+    background-color: #1f3a5a90;
     text-align: center;
-    margin-left: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 20% 0% 20%;
    
 }
 .nav li:hover{
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
 }
+.foto{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
